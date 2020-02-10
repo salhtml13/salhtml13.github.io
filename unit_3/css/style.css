@@ -1,0 +1,41 @@
+h1{
+
+	color: #FF9CC2;
+	font-family: Courier New
+}
+
+body {
+
+	color: #229E92;
+	  background: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-045.jpg")
+
+}
+
+
+
+#slogan {
+	font-style: italic;
+	font-size: 18px
+}
+
+.quotecategory {
+  column-count: 5;
+  column-rule-style: double;
+}
+
+{
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+h1{
+
+	color: #FF9CC2;
+	font-family: Nova Square
+}
+ 
+body { 
+
+	color: #229E92;
+	  background: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-045.jpg")
+
+}
+
+p{
+  font-family: Open Sans Condensed
+
+}
+
+ul{  font-family: Open Sans Condensed }
+
+div {  font-family: Open Sans Condensed}
+
+
+#slogan {
+	font-style: italic;
+	font-size: 18px
+}
+
+.quotecategory {
+  column-count: 5;
+  column-rule-style: double;
+}
+
+{
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

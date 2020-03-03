@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+h1{
+
+	color: #FF9CC2;
+	font-family: Nova Square
+}
+ 
+body { 
+
+	color: #229E92;
+	  background: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-045.jpg")
+
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 35%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 55%;
+}
+
+
+
+
+
+p{
+  font-family: Open Sans Condensed
+
+}
+
+ul{  font-family: Open Sans Condensed }
+
+div {  font-family: Open Sans Condensed}
+
+
+
+#slogan {
+	font-style: italic;
+	font-size: 18px
+}
+
+.quotecategory {
+  column-count: 5;
+  column-rule-style: double;
+}
+
+{
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 95%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+

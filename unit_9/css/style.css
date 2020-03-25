@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+h1{
+
+	color: #FF9CC2;
+	font-family: Nova Square
+}
+ 
+body { 
+
+	color: #229E92;
+	  background: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-045.jpg")
+
+}
+
+
+p{
+  font-family: Open Sans Condensed
+
+}
+
+ul{  font-family: Open Sans Condensed }
+
+
+div {  
+    font-family: Open Sans Condensed;
+
+    }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#slogan {
+    font-style: italic;
+    font-size: 18px
+}
+
+
+
+
+nav {
+    padding: 20px;
+    text-align: center;
+    width: 100%
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #2BC2B0;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: Open Sans Condensed, sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+.card {
+  color: #FF9CC2;
+  }
+
+.card a:hover {
+  color: #FF9CC2;
+  background-color: #005f5f;
+}
+ 
+.card a.active {
+  background-color: #fff;
+  color:  #FF9CC2;
+  cursor: default;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+aside {
+    padding: 20px;
+
+}
+
+article {
+    background-color: #F3C4E5;
+    padding: 20px;
+}
+
+footer {
+    background-color: #2BC2B0;
+    padding: 10px;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
+
+
+
+
+#two_column {
+    padding: 50px;
+}
+
+#left {
+    border-radius: 25px;
+    padding: 10px;
+    float: left;
+    width: 10%;
+}
+
+#right {
+    border-radius: 25px;
+    border: 1px black solid;
+    padding: 10px;
+    float: right;   
+    width: 90%;
+}
+
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+
+  
+}
+
+
+
+
+
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
